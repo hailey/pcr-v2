@@ -1,0 +1,37 @@
+baseURL = "https://poor-choice.com/"
+languageCode = "en-us"
+title = "Poor Choice Records (A PIMP Inc Company)"
+theme = "hugo-theme-cactus"
+copyright = "PIMP Inc 2020"
+
+[params]
+colortheme = "dark"
+mainSection = "posts"
+logo = "/poorchoicerecord-squarelogo.png"
+description = "Poor Choice Records is a worldwide record label for poor music. If you're here you made a Poor Choice™."
+rss = true
+
+
+[[menu.main]]
+name = "Main"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about"
+
+[[menu.main]]
+name = "Bands"
+url = "/band"
+
+[[menu.main]]
+name = "Music"
+url = "/music"
+
+[[params.social]]
+  name = "email"
+  link = "contact@pimp-inc.com"  # no need for "mailto:" in the head
+[[params.social]]
+  name = "twitter"
+  link = "https://twitter.com/PoorChoiceLtd"
